@@ -1,0 +1,11 @@
+__pycache__/
+.DS_Store
+*.log
+
+# Local agent context is not part of the public demo.
+AGENTS.md
+IDENTITY.md
+SOUL.md
+USER.md
+MEMORY.md
+memory/
