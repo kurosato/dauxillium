@@ -30,3 +30,9 @@ To add project photos:
 4. Check the collection on mobile and desktop before publishing.
 
 The opening photo was supplied for this revision. A higher-resolution original can replace the current small image later without changing the layout. Keep `noindex, nofollow` on this example; final indexing and domain setup belong to the eventual production migration.
+
+## Production hosting — 12 November 2026
+
+The official domain is `https://dauxilium.be/`. Coolify builds the Dockerfile and serves the generated `dist/` with unprivileged nginx on port 8080. Run `python3 production.py` to inspect the production output. It removes preview-only labels and the demo download, enables indexing and writes canonical, robots, sitemap and healthcheck files. The repository-root GitHub Pages example remains a noindex preview.
+
+Production was deployed to the same hosting as coachieving.be. Domain DNS and trusted TLS acceptance are pending the DNS switch; deployment alone does not mean the custom domain has migrated. No mail settings were changed.
