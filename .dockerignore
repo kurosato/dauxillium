@@ -1,0 +1,7 @@
+*
+!Dockerfile
+!nginx.conf
+!production.py
+!index.html
+!assets/
+!assets/**
